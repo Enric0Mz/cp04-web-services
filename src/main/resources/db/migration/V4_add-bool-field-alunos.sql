@@ -1,0 +1,2 @@
+ALTER TABLE alunos ADD COLUMN ativo BOOLEAN DEFAULT TRUE;
+UPDATE alunos SET ativo = TRUE;
